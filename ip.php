@@ -1,5 +1,4 @@
 <?php
-require_once("connection.php");
 if (!empty($_SERVER['HTTP_CLIENT_IP']))
     {
       $ipaddress = $_SERVER['HTTP_CLIENT_IP']."\r\n";
